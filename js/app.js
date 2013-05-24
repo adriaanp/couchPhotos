@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('photos', ['photos.filters', 'photos.services', 'photos.directives', 'photos.controllers']).
+angular.module('photos', ['photos.filters', 'photos.services', 'photos.directives', 'photos.controllers', 'ngResource']).
   config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {templateUrl: 'partials/main.html', controller: 'MainCtrl'});
     $routeProvider.otherwise({redirectTo: '/'});

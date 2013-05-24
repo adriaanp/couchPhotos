@@ -3,6 +3,8 @@
     "version":"0.0.1",
     "description": "Photos app",
     "attachments": ["index.html", "css", "img", "js", "lib", "partials"],
+    "modules": ["modules"],
+    "load": "modules/views",
     "less": {
         "compress": false,
         "compile": ["css/app.less"],
